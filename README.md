@@ -24,17 +24,23 @@ This is a REST API created for the Music History Project. The API will be used t
 
 ## How to Run
 
-From the Command Line in root project folder:
+### From the Command Line in root project folder:
+
+1. cd in to the main project folder:
 
 `$ cd music_history/`
 
+2. run migrate to setup database and install fixtures
+
 `$ python manage.py migrate`
+
+3. run the server
 
 `$ python manage.py runserver`
 
-Go to localhost in browser `http://localhost:8000/`
+4. Navigate to localhost in your browser `http://localhost:8000/`
 
-To login as admin
+## To login as admin
 
 `username: admin`
 
