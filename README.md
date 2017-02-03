@@ -43,18 +43,18 @@ To login as admin
 ### Collections
 
 ```
-* GET - http://localhost:8000/artist                returns all artists
-* GET - http://localhost:8000/albums                returns all albums
-* GET - http://localhost:8000/songs                 returns all songs
-* GET - http://localhost:8000/genres                returns all genres
+* GET - http://127.0.0.1:8000/artist                returns all artists
+* GET - http://127.0.0.1:8000/albums                returns all albums
+* GET - http://127.0.0.1:8000/songs                 returns all songs
+* GET - http://127.0.0.1:8000/genres                returns all genres
 ```
 
 ### Members
 ```
-* GET - http://localhost:8000/artists/<id>          returns an artist by id
-* GET - http://localhost:8000/albums/<id>           returns an album by id
-* GET - http://localhost:8000/songs/<id>            returns a song by id
-* GET - http://localhost:8000/genres/<id>           returns a genre by id
+* GET - http://127.0.0.1:8000/artists/<id>          returns an artist by id
+* GET - http://127.0.0.1:8000/albums/<id>           returns an album by id
+* GET - http://127.0.0.1:8000/songs/<id>            returns a song by id
+* GET - http://127.0.0.1:8000/genres/<id>           returns a genre by id
 ```
 
 ##Example
