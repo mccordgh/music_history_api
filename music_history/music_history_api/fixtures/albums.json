@@ -1,0 +1,51 @@
+[{
+	"model": "music_history_api.album",
+	"pk": 1,
+	"fields": {
+		"title": "Rockin forever dude",
+		"release_date": "2017-02-01T20:42:27Z",
+		"album_length": 7263,
+		"record_label": "Buddy Buddy Records",
+		"artist": [
+			1
+		]
+	}
+}, {
+	"model": "music_history_api.album",
+	"pk": 2,
+	"fields": {
+		"title": "Local Bro Comp",
+		"release_date": "2017-02-01T20:43:38Z",
+		"album_length": 43453,
+		"record_label": "Collab Distro",
+		"artist": [
+			1,
+			2,
+			3
+		]
+	}
+}, {
+	"model": "music_history_api.album",
+	"pk": 3,
+	"fields": {
+		"title": "Failing with Seven Fs",
+		"release_date": "2016-10-04T19:43:09Z",
+		"album_length": 2342,
+		"record_label": "Swashduckler Records",
+		"artist": [
+			2
+		]
+	}
+}, {
+	"model": "music_history_api.album",
+	"pk": 4,
+	"fields": {
+		"title": "Antarctic Massacre",
+		"release_date": "2017-04-19T19:41:59Z",
+		"album_length": 1235,
+		"record_label": "Pimp Dad Records",
+		"artist": [
+			3
+		]
+	}
+}]

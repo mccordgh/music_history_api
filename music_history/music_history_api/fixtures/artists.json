@@ -1,0 +1,22 @@
+[{
+	"model": "music_history_api.artist",
+	"pk": 1,
+	"fields": {
+		"title": "ROcker Bros",
+		"date_formed": "2017-02-01T20:41:17Z"
+	}
+}, {
+	"model": "music_history_api.artist",
+	"pk": 2,
+	"fields": {
+		"title": "Killer Penguins",
+		"date_formed": "2017-02-02T00:00:00Z"
+	}
+}, {
+	"model": "music_history_api.artist",
+	"pk": 3,
+	"fields": {
+		"title": "Friendly Pirates",
+		"date_formed": "2017-06-09T17:00:00Z"
+	}
+}]

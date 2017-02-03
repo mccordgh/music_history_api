@@ -1,0 +1,41 @@
+[{
+    "model": "music_history_api.song",
+    "pk": 1,
+    "fields": {
+        "title": "song for bros",
+        "song_length": 12342,
+        "release_date": "2017-02-01T20:45:28Z",
+        "album": 2,
+        "genre": 1
+    }
+}, {
+    "model": "music_history_api.song",
+    "pk": 2,
+    "fields": {
+        "title": "killer penguis unite",
+        "song_length": 23423,
+        "release_date": "2017-02-01T20:45:48Z",
+        "album": 1,
+        "genre": 2
+    }
+}, {
+    "model": "music_history_api.song",
+    "pk": 3,
+    "fields": {
+        "title": "arg matey",
+        "song_length": 2342,
+        "release_date": "2017-02-01T20:46:10Z",
+        "album": 3,
+        "genre": 3
+    }
+}, {
+    "model": "music_history_api.song",
+    "pk": 4,
+    "fields": {
+        "title": "We are all bros and pirates and penguins guy",
+        "song_length": 2342,
+        "release_date": "2017-02-01T20:46:38Z",
+        "album": 4,
+        "genre": 4
+    }
+}]
