@@ -30,7 +30,7 @@ This is a REST API created for the Music History Project. The API will be used t
 
 `$ cd music_history/`
 
-2. run migrate to setup database and install fixtures
+2. run migrate to setup database, install fixtures, and create the superuser "admin"
 
 `$ python manage.py migrate`
 
@@ -38,9 +38,13 @@ This is a REST API created for the Music History Project. The API will be used t
 
 `$ python manage.py runserver`
 
-4. Navigate to localhost in your browser `http://localhost:8000/`
+4. Navigate to `http://localhost:8000/` in your browser
 
 ## To login as admin
+
+1. Navigate to `http://localhost:8000/admin/` in your browser with server running
+
+2. Login with:
 
 `username: admin`
 
