@@ -1,1 +1,1 @@
-_all__ = ["artist_serializer", "album_serializer", "song_serializer", "genre_serializer"]
+__all__ = ["artist_serializer", "album_serializer", "song_serializer", "genre_serializer"]

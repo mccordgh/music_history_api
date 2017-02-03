@@ -1,7 +1,7 @@
 from django.contrib import admin
-from music_history_api import models
+from music_history_api.models import *
 
-admin.site.register(models.Artist)
-admin.site.register(models.Album)
-admin.site.register(models.Song)
-admin.site.register(models.Genre)
+admin.site.register(artist_model.Artist)
+admin.site.register(album_model.Album)
+admin.site.register(song_model.Song)
+admin.site.register(genre_model.Genre)

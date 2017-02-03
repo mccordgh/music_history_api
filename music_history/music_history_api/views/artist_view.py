@@ -1,8 +1,8 @@
 from rest_framework import viewsets
-from music_history_api import serializers
-from music_history_api import models
+from music_history_api.serializers import artist_serializer
+from music_history_api.models import artist_model
 
 class ArtistView(viewsets.ModelViewSet):
     ''' API Endpoint that displays Artist model '''
-    queryset = models.Artist.objects.all().order_by('-title')
-    serializer_class = serializers.ArtistSerializer
+    queryset = artist_model.Artist.objects.all().order_by('-title')
+    serializer_class = artist_serializer.ArtistSerializer
